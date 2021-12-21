@@ -1,4 +1,4 @@
-# rocket-maud-h5bp
+# rocket-maud-htmx-h5bp
 
 A template repository implementing [HTML5 Boilerplate 8.0][h5bp] in [Rocket] using the [Maud] HTML
 template engine. [HTMX] is vendored in for your [HATEOAS] pleasure.
