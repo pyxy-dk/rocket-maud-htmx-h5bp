@@ -11,7 +11,7 @@ mod strings;
 
 #[get("/")]
 fn index(host: HostHeader) -> Markup {
-    let title = "rocket-maud-h5bp";
+    let title = "rocket-maud-htmx-h5bp";
     let desc = "This is a template. There are many like it but this one is mine.";
     let lang = "en";
     // TODO: Add your site or application content here.

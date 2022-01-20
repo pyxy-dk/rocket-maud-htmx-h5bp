@@ -16,9 +16,9 @@ the projects regain traction the template will of course be updated.
 ## 🏃 Running
 
 ```text
-git clone git@github.com:pyxy-dk/rocket-maud-h5bp.git
+git clone git@github.com:pyxy-dk/rocket-maud-htmx-h5bp.git
 
-cd rocket-maud-h5bp
+cd rocket-maud-htmx-h5bp
 
 rustup override set nightly
 

@@ -885,7 +885,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rocket-maud-h5bp"
+name = "rocket-maud-htmx-h5bp"
 version = "0.1.0"
 dependencies = [
  "maud",
