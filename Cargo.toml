@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-maud = { git = "https://github.com/mbr/maud.git", branch = "mbr/rocket-0.5.0-rc.1", features = ["rocket"] }
-rocket = "0.5.0-rc.1"
+maud = { git = "https://github.com/tamc/maud.git", branch = "rocket-0.5.0-rc.2", features = ["rocket"] }
+rocket = "0.5.0-rc.2"

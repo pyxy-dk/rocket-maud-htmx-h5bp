@@ -5,10 +5,10 @@ template engine. [HTMX] is vendored in for your [HATEOAS] pleasure.
 
 ## ⚠ Caution
 
-[Rocket] is currently (late 2021) in [a bit of a hiatus](https://github.com/SergioBenitez/Rocket/discussions/1672#discussioncomment-1217547).
-This template is built on `rocket-0.5.0-rc.1` which has major updates to async handling.
+[Rocket] is currently (late 202~~1~~2) in [a bit of a hiatus](https://github.com/SergioBenitez/Rocket/discussions/1672#discussioncomment-1217547).
+This template is built on `rocket-0.5.0-rc.2` which has major updates to async handling.
 Unfortunately, the RC status means that [Maud] does not support this Rocket version out of the box,
-so the template also relies on [a draft PR with Rocket-0.5.0 support](https://github.com/lambda-fairy/maud/pull/307) and *nightly* Rust.
+so the template also relies on [a draft PR with Rocket-0.5.0 support](https://github.com/lambda-fairy/maud/pull/353).
 
 Taken together, this template isn't at its most stable right now, but it seems to work fine. When
 the projects regain traction the template will of course be updated.
@@ -20,10 +20,10 @@ git clone git@github.com:pyxy-dk/rocket-maud-htmx-h5bp.git
 
 cd rocket-maud-htmx-h5bp
 
-rustup override set nightly
-
 cargo run
 ```
+
+Now open <http://localhost:8000/> in your browser.
 
 ## 🗺️ File mapping from H5BP
 
